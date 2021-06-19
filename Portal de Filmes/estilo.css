@@ -1,0 +1,236 @@
+/**/
+
+/**/
+
+/*Cabeçalho*/
+header{
+    background: white;
+}
+
+header img{
+    max-width: 250px;
+}
+
+header a{
+    color: rgb(233, 91,91);
+    text-align: center;
+    font-size: small;
+}
+
+header #proc{
+    color: white;
+    background-color: rgb(194, 57, 103);
+    border-radius: 4px;
+}
+
+header a:hover{
+    background-color: rgb(233, 91,91);
+    color: white;
+}
+.paginas{
+    padding: 20px;
+    color: rgb(233, 91,91);
+}
+
+.paginas{
+    width: 80%;
+}
+
+/*Carousel - Lançaments*/
+.carousel {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(233, 91,91);
+}
+
+.carousel h3{
+    color: white;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.carousel .carousel-item{
+    padding-bottom: 40px;
+}
+
+.carousel iframe{
+    width: 100%;
+}
+
+.carousel .carousel-item h5{
+    color: white;    
+    text-align: justify;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+.carousel .carousel-item p{
+    padding-left: 20px;
+    color: white;
+    padding-bottom: 10px;
+    text-align: justify;
+}
+/**/
+
+/*Em destaque*/
+.destaques-titulo{
+    padding: 20px;
+    text-align: center;
+    color: rgb(233, 91,91);
+
+}
+
+.destaques{
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.destaques img{    
+    padding: 3px;
+    width: 100%;
+}
+
+.destaques .imagens{
+    padding: 5px;
+    background-color: rgb(253, 223, 223);
+}
+
+.destaques .imagens h5{
+    padding: 5px;
+    text-align: center;
+    color: rgb(233, 91,91);
+}
+
+.destaques .imagens p{
+    padding: 5px;
+    color: rgb(233, 91,91);
+}
+/**/
+
+/*Avaliações*/
+.avaliação-titulo{
+    padding: 15px;
+    text-align: center;
+    color: white; 
+    background-color: rgb(233, 91,91);
+}
+
+.avaliação{
+    padding-left: auto;
+    padding-right: auto;
+    border: 0px;
+    margin: 0px;
+    padding-bottom: 30px;
+    background-color: rgb(233,91,91);
+}
+
+.avaliação .card{
+    background-color:white;
+    padding: 15px;
+}
+/**/
+
+/*Makingof*/
+.entrevistas-titulo{
+    padding-top: 40px;
+    text-align: center;
+    color: rgb(233, 91,91);
+}
+
+.entrevistas{
+    border: 40px;
+    padding: 30px;
+}
+
+.entrevistas .imagens{
+    padding: 10px;
+    background-color: rgb(253, 223, 223);
+    border-radius: 5px;
+}
+
+.entrevistas iframe{
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+/**/
+
+
+/*Sobre*/
+.sobre{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+.sobre h3{
+    color: rgb(233, 91,91);
+    text-align: left;
+    padding-bottom: 15px;
+}
+
+.sobre h4{
+    color: rgb(233, 91,91);
+    text-align: left;
+    padding-bottom: 15px;
+}
+
+.sobre h5{
+    color: rgb(233, 91,91);
+    text-align: left;
+    padding-bottom: 15px;
+}
+
+.sobre p{
+    color: rgb(233, 91,91);
+    text-align: left;
+    padding-bottom: 15px;
+}
+
+.sobre img{
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+}
+/**/
+
+
+/*Rodape*/
+.footer{
+    background-color: rgb(233, 91,91);
+    padding: 15px;
+}
+
+.footer p{
+    color: white;
+    text-align: center;
+}
+
+.footer img{
+    max-width: 100px;
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+}
+/**/
+
+/**/
+main .nav-alt{
+    display: none;
+}
+@media screen and(max-width: 400px){
+    
+}
+
+@media screen and (min-width:601px) and (max-width:1024px){
+    main .nav-alt{
+        text-align: center;
+        background-color: aqua;
+    }
+}

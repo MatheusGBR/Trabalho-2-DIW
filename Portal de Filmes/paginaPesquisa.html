@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    </linkrel>
+    <link rel="styleshhet" href="//maxcnd.bootstrapcnd.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="estiloPesquisa.css">
+    <title> Cine Video - Pesquisas</title>
+</head>
+
+<body>
+    <header class="container">
+        <nav class="navbar navbar-expand-lg">
+            <img src="imagens/Logo.jpg" class="Logo">
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html#carousel">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#destaques">Em destaque</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#avaliações">Avaliações</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#entrevistas">Entrevistas e Makinof</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#novidades">Novidades</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="proc" class="nav-link" href="paginaPesquisa.html">Pesquisar</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-6">
+              <p><a href="index.html">Home</a></p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-6">
+                <p><a id="proc" href="paginaPesquisa.html">Pesquisar</a></p>
+            </div>
+        </div>
+    
+        <label><input id="textPesquisa" type="text" placeholder="Romances"></label>
+        <button onclick="carregarFilmes()" id="btn-pesquisa">Procurar</button>
+        
+
+        <div id="tela">
+        </div>
+    </main>
+
+    <footer>
+        <label><p>By: </p></label>
+        <img src="https://www.themoviedb.org/assets/2/v4/logos/v2/blue_long_1-8ba2ac31f354005783fab473602c34c3f4fd207150182061e425d366e4f34596.svg">
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

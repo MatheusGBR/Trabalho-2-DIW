@@ -1,0 +1,6 @@
+Basicamente ele nãoi irá inserir o conteudo das API's no corpo da pagina,
+tanto da pagina Index, quanto de pesquisa.
+
+mas se olhar na pigina de mensagens do console, da pra ver que ele executa tudo.
+
+A responsividade está Ok.
